@@ -68,9 +68,9 @@ config.json文件内容示例
 需要映射上面配置config.json，假设你本机的目录是 /home/dev/config/config.json
 
 ```bash
-docker run -d --name wechat-chatbot \ 
--p 80:8080 -v /home/dev/config/config.json:/app/config.json \ 
---restart=always \ 
+docker run -d --name wechat-chatbot \
+-p 80:8080 -v /home/dev/config/config.json:/app/config.json \
+--restart=always \
 zhangzh520/wechat-chatbot 
 ```
 
