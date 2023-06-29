@@ -1,0 +1,14 @@
+{
+    "openapi-url": "https://api.openai.com/v1/chat/completions",
+    "openapi-model": "gpt-3.5-turbo",
+    "allow-all": true,
+    "sync-customer": true,
+    "wx-app-id": "",
+    "wx-app-secret": "",
+    "wx-app-token": "",
+    "white-list": [""],
+    "api-key": "",
+    "chat-token-limit": 5,
+    "midjourney-proxy": "",
+    "midjourney-notify-url": ""
+}
